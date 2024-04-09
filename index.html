@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANDIVAS/LUISMARIO/T/BSCS-DS/3A/GUESS_THE_FLAG_#3</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="main">
+        <div class="game-setting">
+            <input type="radio" value="All Flags" name="flag-setting" id="all-flags"> All Flags <span></span>
+            <input type="radio" value="100 Flags" name="flag-setting" id="100-flags"> 100 Flags <span></span>
+            <input type="radio" value="30 Flags" name="flag-setting" id="30-flags"> 30 Flags <span></span>
+        </div>
+        <div class="container">
+            <div class="top">
+                <button id="reset-btn">reset</button>
+                <h3 id="number-answered">No: 0</h3>
+                <h3 id="number-score">Score: 0</h3>
+            </div>
+            <h1>Guess the Flag</h1>
+            <div class="flag-container">
+                <img id="flag-img" alt="Flag Image">
+            </div>
+            <input type="text" id="guess-input" placeholder="Enter the country name...">
+            <button id="submit-btn" disabled>Submit</button>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
